@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>USC GE Helper</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <div id="main">
+            <div id="page_title">
+                <h1>USC GE Helper</h1>
+            </div>
+
+            <div id="container">
+                <div class="selection">
+                    <h3 class="instruction">Choose a year and term: </h3>
+
+                    <div class="selections">
+                        <select id="year" placeholder="Year">
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                        </select>
+
+                        <select id="term" class="custom-select custom-select-term" placeholder="Term">
+                            <option value="Fall">Fall</option>
+                            <option value="Spring">Spring</option>
+                            <option value="Summer">Summer</option>
+                        </select>
+                    </div> <!-- .custom-select -->
+
+                </div> <!-- .selection -->
+
+                <!-- <div class="toputclearfloat clearfloat"></div> -->
+
+                <div class="selection r2">
+                    <h3 class="instruction">Choose categories to match: </h3>
+
+                    <div class="selections">
+                        <select id="c1" class="custom-select" placeholder="A - F">
+                            <option value="A">GE: A</option>
+                            <option value="B">GE: B</option>
+                            <option value="C">GE: C</option>
+                            <option value="D">GE: D</option>
+                            <option value="E">GE: E</option>
+                            <option value="F">GE: F</option>
+                        </select>
+
+                        <select id="c2" class="custom-select" placeholder="G / H">
+                            <option value="G">GE: G</option>
+                            <option value="H">GE: H</option>
+                        </select>
+                    </div> <!-- .custom-select -->
+
+                </div> <!-- .selection -->
+
+            </div> <!-- #container -->
+
+        </div> <!-- #main -->
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
