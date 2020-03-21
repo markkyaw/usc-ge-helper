@@ -48,6 +48,3 @@ request('https://classes.usc.edu', (error, response, html) =>
 
 
 });
-
-// console.log(terms);
-

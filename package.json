@@ -19,6 +19,7 @@
   "homepage": "https://github.com/markkyaw/usc-ge-helper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "mysql": "^2.18.1",
     "request": "^2.88.2",
     "uniq": "^1.0.1"
   }
